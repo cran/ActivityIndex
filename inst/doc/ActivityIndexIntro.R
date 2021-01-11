@@ -1,7 +1,7 @@
 ## ----"setup",echo=FALSE,cache=FALSE,warning=FALSE,message=FALSE----
 library(ActivityIndex)
 library(knitr)
-options(width=52,scipen=1,digits=5)
+opt_setup=options(width=52,scipen=1,digits=5)
 opts_chunk$set(tidy=TRUE)
 
 ## ----"AccessCSV",echo=TRUE,eval=FALSE-------------
@@ -55,4 +55,7 @@ AI_sampleGT3XPlus_min=computeActivityIndex(sampleGT3XPlus, sigma0=sample_sigma0,
 
 ## ----"head_AI_min",echo=TRUE,eval=TRUE------------
 head(AI_sampleGT3XPlus_min)
+
+## ----"setup_cleanup",echo=FALSE,cache=FALSE,warning=FALSE,message=FALSE----
+options(opt_setup)
 

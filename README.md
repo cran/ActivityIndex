@@ -23,16 +23,15 @@ The AI is a way of summarizing densely sampled accelerometry data into
 given epochs (such as every 1 second or every 15 seconds, etc).
 Essentially, AI describes the variability of the raw acceleration
 signals, after normalizing it using systematic noise of the signal. AI
-is an evolvement of the original metric, **Activity Intensity**,
-proposed in the paper [Normalization and extraction of interpretable
-metrics from raw accelerometry
-data](http://biostatistics.oxfordjournals.org/content/15/1/102.abstract)
-by J. Bai et al (2014). The AI addresses some limitation of the orignal
+is an evolution of the original metric, **Activity Intensity**, proposed
+in the paper [Normalization and extraction of interpretable metrics from
+raw accelerometry data](https://doi.org/10.1093/biostatistics/kxt029) by
+J. Bai et al (2014). The AI addresses some limitation of the original
 Activity Intensity, and has favorable properties. More details on these
 properties and a direct comparison of AI versus other metrics such as
 Activity Count could be found in the paper [An Activity Index for Raw
 Accelerometry Data and Its Comparison with Other Activity
-Metrics](http://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0160644).
+Metrics](https://doi.org/10.1371/journal.pone.0160644).
 
 ## Package Installation
 
@@ -69,7 +68,7 @@ browseVignettes(package="ActivityIndex")
 ```
 
 and interactively browsing or going to
-<http://javybai.github.io/ActivityIndex/articles/ActivityIndexIntro.html>.
+<https://javybai.github.io/ActivityIndex/articles/ActivityIndexIntro.html>.
 
 ## Further Questions
 
